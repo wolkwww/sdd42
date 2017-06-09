@@ -5,3 +5,5 @@
 
 Добавить библиотеки "cr_c" и "cr_nohost_nf"
 и соответствующие пути к ним
+
+заместо функции _write(), прописать функцию int __sys_write(int iFileHandle, char *pcBuffer, int iLength);
